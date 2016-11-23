@@ -42,6 +42,7 @@ class exports.Path extends Layer
 							y: p.y - @pointSize/2
 							
 					animate[points] = new Animation
+							layer:point[points]
 					
 				 if @pointVisible == false
 						point[points].opacity = 0
